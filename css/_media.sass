@@ -234,13 +234,7 @@
         margin-left: 0
 
 @media (min-width: 640px) and (max-width: 959px)
-    .container
-        min-width: 640px
-        max-width: 100%
-        padding: 15px
-        margin: 0 auto
-        *
-            margin-left: 0
+    
 
     header
         .header
@@ -298,6 +292,7 @@
     .boxes
         display: block
         .checkbox, .radio
+            max-width: 100%
 
         .box_2
             width: 100%
@@ -319,6 +314,7 @@
     .dark_form_sect
         .container
             .forms
+                
                 margin-top: 20px
                 padding-top: 0
                 .question, .phone
@@ -405,12 +401,17 @@
                 margin-bottom: 50px
 
     .light_table_sect
-        .table_wrapper
-            width: 630px
+        .container
+            max-width: 100%
+            .table_wrapper
+                width: 630px
+                max-width: 100%
+                
 
     .dark_table_sect
         .table_wrapper
             width: 630px
+            max-width: 100%
     footer
         height: 75px
         .footer
@@ -418,16 +419,23 @@
             padding-top: 0
             .cw
                 margin: 0
-
-@media (min-width: 320px) and (max-width: 639px)
-
+    
     .container
-        min-width: 320px
         max-width: 100%
         padding: 15px
         margin: 0 auto
         *
             margin-left: 0
+@media (min-width: 320px) and (max-width: 639px)
+
+    .container
+        max-width: 100%
+        padding: 15px
+        margin: 0 auto
+        *
+            margin-left: 0
+    button
+        max-width: 100%
 
     header
         .header
@@ -576,6 +584,8 @@
                     margin-right: 0
                     .ctr_desc
                         width: 95%
+                    .ctr_title
+                        max-width: 100%
 
     .counter
         .wrapper_pager
@@ -629,6 +639,16 @@
             .rate_back
                 margin-bottom: 50px
 
+
+    .selected_text
+        table
+            max-width: 100%
+        .selected_item, .text_bold1
+            max-width: 100%
+    .drop_list
+        li
+            max-width: 100%
+
 @media (max-width:  1166px)
     .insta
         .img_wrapper
@@ -651,6 +671,6 @@
         .img_wrapper
             img:nth-child(2)
                 display: none
-@media (min-width: 640px) and (max-width: 656px)
-    .container
-        margin-right: 0
+// @media (min-width: 640px) and (max-width: 656px)
+//     .container
+//         margin-right: 0
