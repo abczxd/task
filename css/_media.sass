@@ -1,7 +1,135 @@
+@media (max-width:  1443px)
 
-    
+    .btns_wrapper
+        display: none
+        max-width: 100%
 
-@media (min-width: 960px) and (max-width: 1444px)
+    .menu_wrapper
+
+        .aside
+            &::before
+                display: none
+            .aside__body
+
+                .aside__burger
+                    left: 20px
+                    top: 20px
+                    display: block
+                    position: relative
+                    width: 30px
+                    height: 20px
+                    z-index: 3
+                    &:before, &:after
+                        content: ''
+                        background-color: #fff
+                        position: absolute
+                        width: 100%
+                        height: 2px
+                        left: 0
+                    &:before
+                        top: 0
+                    &:after
+                        bottom: 0
+                    span
+                        background-color: #fff
+                        position: absolute
+                        left: 0
+                        width: 100%
+                        height: 2px
+                        top: 9px
+
+                .active
+                    &:before
+                        transform: rotate(45deg)
+                        top: 9px
+                    &:after
+                        transform: rotate(-45deg)
+                        bottom: 9px
+                    span
+                        transform: scale(0)
+                        transition: all 0.3s ease 0s
+
+                .aside__menu
+                    position: fixed
+                    left: 0
+                    top: -200%
+                    height: 100%
+                    background-color: #343037
+                    transition: all 0.3s ease 0s
+
+                    .aside__list
+
+                        .elem_first
+                            margin-bottom: 0
+                        .elem_last
+                            margin-top: 0
+                .aside__menu.active
+                    top: 0px
+
+    .btns_back_wrapper
+        max-width: 100%
+
+        .container
+
+            .btns:before
+
+            .btns
+
+                .btns__body
+
+                    .btns__menu
+                        .btns__list
+                            width: 255px
+                            display: block
+                            border-radius: 0
+
+                            li
+                                display: none
+                                border-radius: 0
+
+                                .btns__link
+                            .first_li
+                                display: block
+
+                                .first_btn
+
+                                    .btns__burger
+                                        display: block
+                                        position: relative
+                                        width: 100%
+                                        height: 20px
+                                        z-index: 3
+                                        &:before, &:after
+                                            content: ''
+                                            background-color: #fff
+                                            position: absolute
+                                            width: 30px
+                                            height: 2px
+                                            left: 200px
+                                        &:before
+                                            top: 0
+                                        &:after
+                                            bottom: 0
+                                        span
+                                            background-color: #fff
+                                            position: absolute
+                                            left: 200px
+                                            width: 30px
+                                            height: 2px
+                                            top: 9px
+
+                            .first_li:hover
+                                background: rgba(0, 0, 0, 0)
+                                transition: all 0s ease 0s
+                                .first_btn
+                                    color: white
+                            .active
+                                display: block
+
+    .active_wrapper
+        height: 300px
+
+@media (min-width: 960px) and (max-width: 1443px)
     .container
         max-width: 738px
         margin: 0 auto
@@ -11,6 +139,7 @@
             margin-left: 0
     .text_section
         .container
+            
             position: relative
             .text
                 margin-left: 0px
@@ -61,20 +190,6 @@
             background-size: cover
             height: 100%
 
-    .tabs
-        .tab
-            width: 740px
-            button
-                width: 184.5px
-
-    .tab_back
-
-        .tab_wrapper
-            height: 100%
-            width: 740px
-            button
-                width: 184.5px
-
     .rate
         .first_wrapper
             display: block
@@ -91,8 +206,6 @@
             height: 100%
             .rate_back
                 margin-bottom: 50px
-
-   
 
     .ctr_sect
         .ctr
@@ -120,7 +233,193 @@
     .selected_text, .buttons, .photo
         margin-left: 0
 
-@media (min-width: 320px) and (max-width: 640px)
+@media (min-width: 640px) and (max-width: 959px)
+    .container
+        min-width: 640px
+        max-width: 100%
+        padding: 15px
+        margin: 0 auto
+        *
+            margin-left: 0
+
+    header
+        .header
+            a, .header__city
+                font-size: 12px
+
+    .blog
+
+        &_menu
+        &_menu, .blog_text
+            margin-left: 0
+            padding-bottom: 0
+
+        .blog_text
+
+            font-size: 20px
+            text-align: center
+    .text_section
+        .container
+            .text
+                margin-left: 0
+                width: 100%
+
+                &_desc
+                    p
+                        font-size: 16px
+
+            .colors
+                margin-right: 5px
+
+    .list
+
+        margin-left: 0
+        *
+            width: 100%
+
+        .ordered_list
+            margin-left: 0
+
+    .links
+        margin-left: 0
+        a
+            width: 100%
+
+    .list2_sect
+        .container
+            .list2
+                margin-left: 0
+                *
+                    width: 100%
+
+                .ordered_list
+                    margin-left: 0
+
+    .boxes
+        display: block
+        .checkbox, .radio
+
+        .box_2
+            width: 100%
+            margin-left: 0
+            div
+                width: 100%
+
+    .faq
+        width: 100%
+
+    .wrapper
+        width: 100%
+        height: 200px
+
+    .photo
+        img
+            width: 100%
+
+    .dark_form_sect
+        .container
+            .forms
+                margin-top: 20px
+                padding-top: 0
+                .question, .phone
+                    font-size: 30px
+                    width: 100%
+                .phone
+                    height: 55px
+                    padding-top: 0px
+                    max-width: 370px
+                .request
+                    margin: 0 auto
+                    width: 80%
+                input
+                    width: 370px
+                p
+                    font-size: 14px
+
+                .checkbox
+                    text-align: center
+
+    .light_form
+        width: 100%
+    .drop_list
+        width: 100%
+        #nav
+            width: 100%
+        ul
+            width: 100%
+            padding-left: 10px
+            padding-right: 0
+        #nav ul a
+            margin: 0
+            width: 100%
+            margin-left: -10px
+            margin-top: -2px
+
+    .form_validation
+        margin: 0 auto
+    .message
+
+        .success, .error
+
+            height: 100%
+
+    .ctr_sect
+        .ctr
+            .ctr_wrapper
+                display: block
+                width: 500px
+                margin: 0 auto
+                .ctr_back, .ctr_simple
+                    margin-right: 0
+
+    .counter
+
+        a
+            margin-right: 10px
+
+    .buttons
+        .big_button
+            width: 320px
+
+        .small_button
+            width: 210px
+    .wrapper
+        height: 350px
+        margin: 0 auto
+
+    .rate
+        .first_wrapper
+            display: block
+            .rate_simple
+                margin-bottom: 50px
+        .second_wrapper
+            height: 100%
+            display: block
+            .rate_simple
+                margin-bottom: 50px
+    .rate_background
+        .second_wrapper
+            display: block
+            height: 100%
+            .rate_back
+                margin-bottom: 50px
+
+    .light_table_sect
+        .table_wrapper
+            width: 630px
+
+    .dark_table_sect
+        .table_wrapper
+            width: 630px
+    footer
+        height: 75px
+        .footer
+            margin-top: 0
+            padding-top: 0
+            .cw
+                margin: 0
+
+@media (min-width: 320px) and (max-width: 639px)
 
     .container
         min-width: 320px
@@ -179,9 +478,11 @@
         display: none
 
     .boxes
+
         display: block
         .checkbox, .radio
             display: block
+            max-width: 100%
 
         .box_2
             width: 100%
@@ -269,27 +570,19 @@
                 width: 100%
                 display: block
                 margin: 0 auto
-                
+
                 .ctr_back, .ctr_simple
                     width: 100%
                     margin-right: 0
                     .ctr_desc
                         width: 95%
-                    
-                    
-
-    .insta
-        text-align: center
-        left: -70%
 
     .counter
         .wrapper_pager
-            
+
             .pager
-                
 
                 &-item
-                    
 
                     a
                         margin-right: 10px
@@ -318,183 +611,6 @@
                 display: block
                 .icons
                     margin-left: 0px
-                
-          
-
-@media (min-width: 640px) and (max-width: 960px)
-    .container
-        min-width: 640px
-        max-width: 100%
-        padding: 15px
-        margin: 0 auto
-        *
-            margin-left: 0
-
-    header
-        .header
-            a, .header__city
-                font-size: 12px
-
-    .blog
-
-        &_menu
-        &_menu, .blog_text
-            margin-left: 0
-            padding-bottom: 0
-
-        .blog_text
-
-            font-size: 20px
-            text-align: center
-    .text_section
-        .container
-            .text
-                margin-left: 0
-                width: 100%
-
-                &_desc
-                    p
-                        font-size: 16px
-
-            .colors
-                margin-left: 50px
-
-    .list
-
-        margin-left: 0
-        *
-            width: 100%
-
-        .ordered_list
-            margin-left: 0
-
-    .links
-        margin-left: 0
-        a
-            width: 100%
-
-    .list2_sect
-        .container
-            .list2
-                margin-left: 0
-                *
-                    width: 100%
-
-                .ordered_list
-                    margin-left: 0
-
-    .boxes
-        display: block
-        .checkbox, .radio
-
-        .box_2
-            width: 100%
-            margin-left: 0
-            div
-                width: 100%
-
-    .faq
-        width: 100%
-
-    .wrapper
-        width: 100%
-        height: 200px
-
-    .photo
-        img
-            width: 100%
-
-    .dark_form_sect
-        .container
-            .forms
-                margin-top: 20px
-                padding-top: 0
-                .question, .phone
-                    font-size: 30px
-                    width: 100%
-                .phone
-                    height: 55px
-                    padding-top: 0px
-                    max-width: 370px
-                .request
-                    margin: 0 auto
-                    width: 80%
-                input
-                    width: 370px
-                p
-                    font-size: 14px
-
-                .checkbox
-                    text-align: center
-
-    .light_form
-        width: 100%
-    .drop_list
-        width: 100%
-        #nav
-            width: 100%
-        ul
-            width: 100%
-            padding-left: 10px
-            padding-right: 0
-        #nav ul a
-            margin: 0
-            width: 100%
-            margin-left: -10px
-            margin-top: -2px
-   
-    .form_validation
-        margin: 0 auto
-    .message
-       
-        .success, .error
-           
-            height: 100%
-       
-
-    .ctr_sect
-        .ctr
-            .ctr_wrapper
-                display: block
-                width: 500px
-                margin: 0 auto
-                .ctr_back, .ctr_simple
-                    margin-right: 0
-
-    .insta
-        text-align: center
-        left: -20%
-        .iphone
-            display: none
-
-    .counter
-
-        a
-            margin-right: 10px
-
-    .buttons
-        .big_button
-            width: 320px
-
-        .small_button
-            width: 210px
-    .wrapper
-        height: 350px
-        margin: 0 auto
-
-    .tabs
-        .tab
-            width: 640px
-            button
-                width: 160px
-
-    .tab_back
-
-        .tab_wrapper
-            height: 100%
-            width: 640px
-            button
-                width: 160px
 
     .rate
         .first_wrapper
@@ -513,92 +629,25 @@
             .rate_back
                 margin-bottom: 50px
 
-    .light_table_sect
-        .table_wrapper
-            width: 630px
-    
-    .dark_table_sect
-        .table_wrapper
-            width: 630px
-    footer
-        height: 75px
-        .footer
-            margin-top: 0
-            padding-top: 0
-            .cw
-                margin: 0
-    
-@media (max-width:  1170px)
-    
-    .menu_wrapper 
-
-        .aside 
-            &::before
+@media (max-width:  1166px)
+    .insta
+        .img_wrapper
+            img:last-child
                 display: none
-            .aside__body    
-    
-                .aside__burger 
-                    left: 20px
-                    top: 20px
-                    display: block
-                    position: relative
-                    width: 30px
-                    height: 20px
-                    z-index: 3
-                    &:before, &:after
-                        content: ''
-                        background-color: #fff
-                        position: absolute
-                        width: 100%
-                        height: 2px
-                        left: 0
-                    &:before
-                        top: 0
-                    &:after
-                        bottom: 0
-                    span
-                        background-color: #fff
-                        position: absolute
-                        left: 0
-                        width: 100%
-                        height: 2px
-                        top: 9px
-                        transition: all 0.3s ease 0s
-                .active
-                    &:before
-                        transform: rotate(45deg)
-                        top: 9px
-                    &:after
-                        transform: rotate(-45deg)
-                        bottom: 9px
-                    span
-                        transform: scale(0) 
-                        transition: all 0.3s ease 0s
-
-
-                        
-                    
-                        
-
-                .aside__menu 
-                    position: fixed
-                    left: 0
-                    top: -200%
-                    height: 100%
-                    background-color: #343037
-                    transition: all 0.3s ease 0s
-                    
-                    .aside__list 
-                        
-                        li
-                            
-
-                            .aside__link 
-                .aside__menu.active
-                    top: 0px
-            
-
-    .lock
-        overflow-y: none
-            
-    tabs
+        .iphone
+            display: none
+@media (max-width:  932px)
+    .insta
+        .img_wrapper
+            img:nth-child(4)
+                display: none
+@media (max-width:  698px)
+    .insta
+        .img_wrapper
+            img:nth-child(3)
+                display: none
+@media (max-width:  464px)
+    .insta
+        .img_wrapper
+            img:nth-child(2)
+                display: none

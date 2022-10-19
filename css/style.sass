@@ -1,1299 +1,1327 @@
 
 *
-    padding: 0
-    margin: 0
-    box-sizing: border-box
+	outline: 1px solid #f00 !important
+	padding: 0
+	margin: 0
+	box-sizing: border-box
 
 html
-    overflow-x: none
+	overflow-x: none
 body
-    font-family: 'Open Sans'
-    padding: 0
-    margin: 0
+	font-family: 'Open Sans'
+	padding: 0
+	margin: 0
 .container
-    max-width: 1200px
-    margin: 0 auto
-    padding-left: 10px
-    padding-right: 10px
+	max-width: 1200px
+	margin: 0 auto
+	padding-left: 10px
+	padding-right: 10px
 
 header
+	width: 100%
+	position: fixed
+	height: 55px
+	background-color: #343037
+	top: 0
 
-    position: fixed
-    width: 100%
-    height: 55px
-    background-color: #343037
-    top: 0
+	.header
+		height: 100%
+		height: 54px
 
-    .container
-        overflow-y: hidden
-        display: flex
-        flex-wrap: wrap
-    .header
-        height: 100%
-        height: 54px
+		color: white
+		margin-top: 5px
+		margin-left: auto
+		table
+			float: right
+		*
+			margin-right: 15px
+		.phone__icon
+			height: 40%
 
-        color: white
-        margin-top: 5px
-        margin-left: auto
-        table
-            float: right
-        *
-            margin-right: 15px
-        .phone__icon
-            height: 40%
+		&__city
 
-        &__city
+			font-weight: 400
+			font-size: 17pt
 
-            font-weight: 400
-            font-size: 17pt
+		&__phone
 
-        &__phone
+			text-decoration: none
+			color: white
 
-            text-decoration: none
-            color: white
+			font-weight: 700
+			font-size: 17pt
 
-            font-weight: 700
-            font-size: 17pt
+		&__arrow
 
-        &__arrow
-
-            margin: 0 auto
-            width: 8px
-            height: 4px
+			margin: 0 auto
+			width: 8px
+			height: 4px
 
 .blog
-    background-image: url(../img/main_back.png)
-    color: black
-    background-repeat: no-repeat
+	background-image: url(../img/main_back.png)
+	color: white
+	background-repeat: no-repeat
 
-    background-size: cover
+	background-size: cover
 
-    background-position: 50% 100%
+	background-position: 50% 100%
 
-    &_menu
-        margin-top: 50px
-        margin-left: 100px
-        display: flex
-        padding-top: 39px
+	&_menu
+		margin-top: 50px
+		margin-left: 100px
+		display: flex
+		padding-top: 39px
 
-        font-weight: 400
-        font-size: 14pt
-        a
-            color: white
-            margin-left: 10px
-        .blog-link
-            text-decoration: none
-        .menu_blog
-            margin-left: 30px
+		font-weight: 400
+		font-size: 14pt
+		a
+			color: white
+			margin-left: 10px
+		.blog-link
+			text-decoration: none
+		.menu_blog
+			margin-left: 30px
 
-    .blog_text
-        margin-left: 100px
-        font-weight: 800
-        font-size: 56pt
-        text-transform: uppercase
-        padding-bottom: 75px
+	.blog_text
+		margin-left: 100px
+		font-weight: 800
+		font-size: 56pt
+		text-transform: uppercase
+		padding-bottom: 75px
 
 .text_section
-    .container
-        display: flex
-        .text
+	.container
+		display: flex
+		.text
 
-            margin-top: 80px
+			margin-top: 80px
 
-            width: 680px
-            margin-left: 100px
+			width: 680px
+			margin-left: 100px
 
-            h1, h2, h3, h4, h5, h6
+			h1, h2, h3, h4, h5, h6
 
-                font-weight: 800
-            h1
-                margin-bottom: 43px
-                text-transform: uppercase
+				font-weight: 800
+			h1
+				margin-bottom: 43px
+				text-transform: uppercase
 
-            .text_desc
-                font-size: 17px
+			.text_desc
+				font-size: 17px
 
-            .last_p
-                margin: 0
-        .colors
+			.last_p
+				margin: 0
+		.colors
 
-            margin-left: 220px
-            margin-top: 38px
-            *
+			margin-left: 220px
+			margin-top: 38px
+			*
 
-                height: 80px
-                width: 80px
-                margin-bottom: 6px
-            &_item_1
-                background-color: #dc107e
-            &_item_2
-                background-color: #e6eef8
-            &_item_3
-                background-color: #3b91e6
-            &_item_4
-                background: rgb(63,142,228)
-                background: linear-gradient(90deg, rgba(63,142,228,1) 0%, rgba(131,98,198,1) 70%, rgba(255,255,255,1) 100%)
-            &_item_5
-                background: rgb(233,199,212)
-                background: linear-gradient(90deg, rgba(233,199,212,1) 70%, rgba(255,255,255,1) 100%)
-            &_item_6
-                background: rgb(181,68,111)
-                background: linear-gradient(90deg, rgba(181,68,111,1) 50%, rgba(157,68,180,1) 100%)
-            &_item_7
-                background-color: #48444b
+				height: 80px
+				width: 80px
+				margin-bottom: 6px
+			&_item_1
+				background-color: #dc107e
+			&_item_2
+				background-color: #e6eef8
+			&_item_3
+				background-color: #3b91e6
+			&_item_4
+				background: rgb(63,142,228)
+				background: linear-gradient(90deg, rgba(63,142,228,1) 0%, rgba(131,98,198,1) 70%, rgba(255,255,255,1) 100%)
+			&_item_5
+				background: rgb(233,199,212)
+				background: linear-gradient(90deg, rgba(233,199,212,1) 70%, rgba(255,255,255,1) 100%)
+			&_item_6
+				background: rgb(181,68,111)
+				background: linear-gradient(90deg, rgba(181,68,111,1) 50%, rgba(157,68,180,1) 100%)
+			&_item_7
+				background-color: #48444b
 
 .list
-    display: flex
-    margin-left: 100px
-    *
-        width: 450px
-        font-size: 18px
-        margin-top: 25px
-        margin-bottom: 0
-    .list_header
-        font-weight: 700
-    .unordered_list
-        list-style-image: url("../img/marker.png")
+	display: flex
+	margin-left: 100px
+	*
+		width: 450px
+		font-size: 18px
+		margin-top: 25px
+		margin-bottom: 0
+	.list_header
+		font-weight: 700
+	.unordered_list
+		list-style-image: url("../img/marker.png")
 
-    .ordered_list
-        margin-left: 60px
-        li
-            color: blue
-            span
-                color: black
+	.ordered_list
+		margin-left: 60px
+		li
+			color: blue
+			span
+				color: black
 
 .links
-    display: flex
-    margin-left: 100px
-    margin-top: 72px
-    .simple_link
-        margin-right: 60px
+	display: flex
+	margin-left: 100px
+	margin-top: 72px
+	.simple_link
+		margin-right: 60px
 
 .selected_text
-    margin-top: 73px
-    text-align: center
-    margin-left: 100px
-    *
+	margin-top: 73px
+	text-align: center
+	margin-left: 100px
+	*
 
-        width: 280px
-        height: 50px
-    .text_bold_1
-        color: white
-        background: rgb(59,145,230)
-        background: linear-gradient(90deg, rgba(59,145,230,1) 0%, rgba(133,99,199,1) 70%, rgba(255,255,255,1) 100%)
-    .text_bold_2
-        color: black
-        margin-top: 21px
-        background: rgb(233,199,211)
-        background: linear-gradient(90deg, rgba(233,199,211,1) 70%, rgba(255,255,255,1) 100%)
-    .important
-        width: 500px
-        color: white
-        margin-top: 21px
-        background: rgb(59,145,230)
-        background: linear-gradient(90deg, rgba(59,145,230,1) 0%, rgba(133,99,199,1) 70%, rgba(255,255,255,1) 100%)
-        text-transform: uppercase
+		width: 280px
+		height: 50px
+	.text_bold_1
+		color: white
+		background: rgb(59,145,230)
+		background: linear-gradient(90deg, rgba(59,145,230,1) 0%, rgba(133,99,199,1) 70%, rgba(255,255,255,1) 100%)
+	.text_bold_2
+		color: black
+		margin-top: 21px
+		background: rgb(233,199,211)
+		background: linear-gradient(90deg, rgba(233,199,211,1) 70%, rgba(255,255,255,1) 100%)
+	.important
+		width: 500px
+		color: white
+		margin-top: 21px
+		background: rgb(59,145,230)
+		background: linear-gradient(90deg, rgba(59,145,230,1) 0%, rgba(133,99,199,1) 70%, rgba(255,255,255,1) 100%)
+		text-transform: uppercase
 
 .buttons
-    margin-left: 100px
-    .button_wrapper
-        margin-top: 100px
+	margin-left: 100px
+	.button_wrapper
+		margin-top: 100px
 
-    .button
-        box-shadow: 4px 4px 6px -1px gray, -4px 4px 6px -1px gray
+	.button
+		box-shadow: 4px 4px 6px -1px gray, -4px 4px 6px -1px gray
 
-    .big_button
-        margin-top: 30px
+	.big_button
+		margin-top: 30px
 
-        width: 320px
-        height: 50px
+		width: 320px
+		height: 50px
 
-    .button_simple
+	.button_simple
 
-        background-color: #dc107e
-        color: white
-        border: none
-    .button_simple:hover
-        background-color: #d92588
-        transition: 0.7s
+		background-color: #dc107e
+		color: white
+		border: none
+	.button_simple:hover
+		background-color: #d92588
+		transition: 0.7s
 
-    .button_border
-        margin-top: 26px
-        border: 2px solid #e34761
+	.button_border
+		margin-top: 26px
+		border: 2px solid #e34761
 
-        background-color: white
-        color: #dc107e
-    .button:hover
-        background-color: #d92588
-        border: none
-        color: white
-        transition: 0.7s
-    .button:active
-        transform: translateY(5px)
-        transition: 0.1s
+		background-color: white
+		color: #dc107e
+	.button:hover
+		background-color: #d92588
+		border: none
+		color: white
+		transition: 0.7s
+	.button:active
+		transform: translateY(5px)
+		transition: 0.1s
 
-    .small_button
-        margin-top: 30px
-        width: 210px
-        height: 40px
+	.small_button
+		margin-top: 30px
+		width: 210px
+		height: 40px
 
-    .button_elipse
-        border-radius: 100px
+	.button_elipse
+		border-radius: 100px
 
 .list2_sect
-    margin-top: 100px
-    background-image: url(../img/list2_back.png)
-    background-repeat: no-repeat
-    background-position: center center
-    background-size: cover
-    *
-        color: white
-    .list2
+	margin-top: 100px
+	background-image: url(../img/list2_back.png)
+	background-repeat: no-repeat
+	background-position: center center
+	background-size: cover
+	*
+		color: white
+	.list2
 
-        display: flex
-        margin-left: 100px
-        *
-            width: 450px
-            font-size: 18px
-            margin-top: 25px
-            margin-bottom: 0
-        .list_header
-            font-weight: 700
-        .unordered_list
-            list-style-image: url("../img/marker.png")
+		display: flex
+		margin-left: 100px
+		*
+			width: 450px
+			font-size: 18px
+			margin-top: 25px
+			margin-bottom: 0
+		.list_header
+			font-weight: 700
+		.unordered_list
+			list-style-image: url("../img/marker.png")
 
-        .ordered_list
-            padding-bottom: 65px
-            margin-left: 60px
-            li
-                color: blue
-                span
-                    color: white
+		.ordered_list
+			padding-bottom: 65px
+			margin-left: 60px
+			li
+				color: blue
+				span
+					color: white
 
 .boxes
 
-    display: flex
-    margin-top: 130px
-    margin-left: 130px
-    justify-content: space-between
-    .checkbox
-        width: 535px
-        display: flex
-        label
+	display: flex
+	margin-top: 130px
+	margin-left: 130px
+	justify-content: space-between
+	.checkbox
+		width: 535px
+		display: flex
+		label
 
-            margin-right: 35px
-            margin-bottom: 40px
+			margin-right: 35px
+			margin-bottom: 40px
 
-    .radio
-        display: flex
-        label
+	.radio
+		display: flex
+		label
 
-            margin-right: 35px
-            margin-bottom: 40px
+			margin-right: 35px
+			margin-bottom: 40px
 
-    .box
-        input[type="checkbox"]:checked,
-        input[type="checkbox"]:not(:checked),
-        input[type="radio"]:checked,
-        input[type="radio"]:not(:checked)
+	.box
+		input[type="checkbox"]:checked,
+		input[type="checkbox"]:not(:checked),
+		input[type="radio"]:checked,
+		input[type="radio"]:not(:checked)
 
-            position: absolute
-            left: -9999px
+			position: absolute
+			left: -9999px
 
-        input[type="checkbox"]:checked + label,
-        input[type="checkbox"]:not(:checked) + label,
-        input[type="radio"]:checked + label,
-        input[type="radio"]:not(:checked) + label
-            display: inline-block
-            position: relative
-            padding-left: 28px
-            line-height: 20px
-            cursor: pointer
+		input[type="checkbox"]:checked + label,
+		input[type="checkbox"]:not(:checked) + label,
+		input[type="radio"]:checked + label,
+		input[type="radio"]:not(:checked) + label
+			display: inline-block
+			position: relative
+			padding-left: 28px
+			line-height: 20px
+			cursor: pointer
 
-        input[type="checkbox"]:checked + label:before,
-        input[type="checkbox"]:not(:checked) + label:before,
-        input[type="radio"]:checked + label:before,
-        input[type="radio"]:not(:checked) + label:before
-            content: ""
-            position: absolute
-            left: 0px
-            top: 0px
-            width: 18px
-            height: 18px
-            border: 1px solid black
-            background-color: #ffffff
+		input[type="checkbox"]:checked + label:before,
+		input[type="checkbox"]:not(:checked) + label:before,
+		input[type="radio"]:checked + label:before,
+		input[type="radio"]:not(:checked) + label:before
+			content: ""
+			position: absolute
+			left: 0px
+			top: 0px
+			width: 18px
+			height: 18px
+			border: 1px solid black
+			background-color: #ffffff
 
-        input[type="checkbox"]:checked + label:before,
-        input[type="checkbox"]:not(:checked) + label:before
-            border-radius: 2px
+		input[type="checkbox"]:checked + label:before,
+		input[type="checkbox"]:not(:checked) + label:before
+			border-radius: 2px
 
-        input[type="radio"]:checked + label:before,
-        input[type="radio"]:not(:checked) + label:before
-            border-radius: 100%
+		input[type="radio"]:checked + label:before,
+		input[type="radio"]:not(:checked) + label:before
+			border-radius: 100%
 
-        input[type="checkbox"]:checked + label:after,
-        input[type="checkbox"]:not(:checked) + label:after,
-        input[type="radio"]:checked + label:after,
-        input[type="radio"]:not(:checked) + label:after
-            content: ""
-            position: absolute
-            -webkit-transition: all 0.2s ease
-            -moz-transition: all 0.2s ease
-            -o-transition: all 0.2s ease
-            transition: all 0.2s ease
+		input[type="checkbox"]:checked + label:after,
+		input[type="checkbox"]:not(:checked) + label:after,
+		input[type="radio"]:checked + label:after,
+		input[type="radio"]:not(:checked) + label:after
+			content: ""
+			position: absolute
+			-webkit-transition: all 0.2s ease
+			-moz-transition: all 0.2s ease
+			-o-transition: all 0.2s ease
+			transition: all 0.2s ease
 
-        input[type="checkbox"]:checked + label:after,
-        input[type="checkbox"]:not(:checked) + label:after
-            left: 5px
-            top: 5px
-            width: 7px
-            height: 5px
-            border-radius: 1px
-            border-left: 2px solid #e145a3
-            border-bottom: 2px solid #e145a3
-            -webkit-transform: rotate(-45deg)
-            -moz-transform: rotate(-45deg)
-            -o-transform: rotate(-45deg)
-            -ms-transform: rotate(-45deg)
-            transform: rotate(-45deg)
+		input[type="checkbox"]:checked + label:after,
+		input[type="checkbox"]:not(:checked) + label:after
+			left: 5px
+			top: 5px
+			width: 7px
+			height: 5px
+			border-radius: 1px
+			border-left: 2px solid #e145a3
+			border-bottom: 2px solid #e145a3
+			-webkit-transform: rotate(-45deg)
+			-moz-transform: rotate(-45deg)
+			-o-transform: rotate(-45deg)
+			-ms-transform: rotate(-45deg)
+			transform: rotate(-45deg)
 
-        input[type="radio"]:checked + label:after,
-        input[type="radio"]:not(:checked) + label:after
-            left: 4px
-            top: 4px
-            width: 10px
-            height: 10px
-            border-radius: 100%
-            background-color: #e145a3
+		input[type="radio"]:checked + label:after,
+		input[type="radio"]:not(:checked) + label:after
+			left: 4px
+			top: 4px
+			width: 10px
+			height: 10px
+			border-radius: 100%
+			background-color: #e145a3
 
-        input[type="checkbox"]:not(:checked) + label:after,
-        input[type="radio"]:not(:checked) + label:after
-            opacity: 0
+		input[type="checkbox"]:not(:checked) + label:after,
+		input[type="radio"]:not(:checked) + label:after
+			opacity: 0
 
-        input[type="checkbox"]:checked + label:after,
-        input[type="radio"]:checked + label:after
-            opacity: 1
+		input[type="checkbox"]:checked + label:after,
+		input[type="radio"]:checked + label:after
+			opacity: 1
 
-    .box1
-        width: 565px
-        .checkbox
-            label
-                width: 180px
-        .radio
-            label
-                width: 180px
-    .box_2
-        margin-top: -40px
-        margin-left: -50px
-        padding-top: 35px
-        padding-left: 35px
-        width: 565px
-        background: rgb(181,68,111)
-        background: linear-gradient(90deg, rgba(181,68,111,1) 50%, rgba(157,68,180,1) 100%)
+	.box1
+		width: 565px
+		.checkbox
+			label
+				width: 180px
+		.radio
+			label
+				width: 180px
+	.box_2
+		margin-top: -40px
+		margin-left: -50px
+		padding-top: 35px
+		padding-left: 35px
+		width: 565px
+		background: rgb(181,68,111)
+		background: linear-gradient(90deg, rgba(181,68,111,1) 50%, rgba(157,68,180,1) 100%)
 
 .faq
-    width: 980px
-    margin: 0 auto
-    margin-top: 100px
-    margin-bottom: 100px
+	width: 980px
+	margin: 0 auto
+	margin-top: 100px
+	margin-bottom: 100px
 
-    details
-        margin-top: -1px
-        padding: 24px
-        border: 1px solid gray
-        min-height: 77px
+	details
+		margin-top: -1px
+		padding: 24px
+		border: 1px solid gray
+		min-height: 77px
 
-    .summary
-        font-weight: 700
-    details:hover
+	.summary
+		font-weight: 700
+	details:hover
 
-        border-left: 4px solid #dc107e
+		border-left: 4px solid #dc107e
 
 .wrapper
-    height: 350px
-    margin: 0 auto
-    position: relative
-    max-width: 700px
+	height: 350px
+	margin: 0 auto
+	position: relative
+	max-width: 700px
 
-    .slider
-        height: inherit
-        overflow: hidden
-        position: relative
-        width: inherit
-        -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .5)
-        -moz-box-shadow: 0 0 20px rgba(0, 0, 0, .5)
-        -o-box-shadow: 0 0 20px rgba(0, 0, 0, .5)
-        box-shadow: 0 0 20px rgba(0, 0, 0, .5)
+	.slider
+		height: inherit
+		overflow: hidden
+		position: relative
+		width: inherit
+		-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .5)
+		-moz-box-shadow: 0 0 20px rgba(0, 0, 0, .5)
+		-o-box-shadow: 0 0 20px rgba(0, 0, 0, .5)
+		box-shadow: 0 0 20px rgba(0, 0, 0, .5)
 .wrapper > input
-    display: none
+	display: none
 .slides
-    height: inherit
-    position: absolute
-    width: inherit
+	height: inherit
+	position: absolute
+	width: inherit
 
 .slide1
-    background-image: url(http://habrastorage.org/files/3f2/628/bd5/3f2628bd58c8452db516195cb0c9bfc9.jpg)
+	background-image: url(http://habrastorage.org/files/3f2/628/bd5/3f2628bd58c8452db516195cb0c9bfc9.jpg)
 .slide2
-    background-image: url(http://habrastorage.org/files/3e1/95d/c7f/3e195dc7f5a64469807f49a14f97ba0e.jpg)
+	background-image: url(http://habrastorage.org/files/3e1/95d/c7f/3e195dc7f5a64469807f49a14f97ba0e.jpg)
 .slide3
-    background-image: url(http://habrastorage.org/files/663/6b1/d4f/6636b1d4f8e643d29eab8c192fc1cea3.jpg)
+	background-image: url(http://habrastorage.org/files/663/6b1/d4f/6636b1d4f8e643d29eab8c192fc1cea3.jpg)
 .slide4
-    background-image: url(http://habrastorage.org/files/e59/424/c04/e59424c046be4dab897d84ab015c87ea.jpg)
+	background-image: url(http://habrastorage.org/files/e59/424/c04/e59424c046be4dab897d84ab015c87ea.jpg)
 
 .wrapper .controls
-    left: 50%
-    margin-left: -98px
-    position: absolute
+	left: 50%
+	margin-left: -98px
+	position: absolute
 
 .wrapper label
-    cursor: pointer
-    display: inline-block
-    height: 8px
-    margin: 25px 12px 0 16px
-    position: relative
-    width: 8px
-    -webkit-border-radius: 50%
-    -moz-border-radius: 50%
-    -o-border-radius: 50%
-    border-radius: 50%
+	cursor: pointer
+	display: inline-block
+	height: 8px
+	margin: 25px 12px 0 16px
+	position: relative
+	width: 8px
+	-webkit-border-radius: 50%
+	-moz-border-radius: 50%
+	-o-border-radius: 50%
+	border-radius: 50%
 
-    &:after
-        border: 2px solid #ddd
-        content: " "
-        display: block
-        height: 12px
-        left: -2px
-        position: absolute
-        top: -2px
-        width: 12px
-        -webkit-border-radius: 50%
-        -moz-border-radius: 50%
-        -o-border-radius: 50%
-        border-radius: 50%
+	&:after
+		border: 2px solid #ddd
+		content: " "
+		display: block
+		height: 12px
+		left: -2px
+		position: absolute
+		top: -2px
+		width: 12px
+		-webkit-border-radius: 50%
+		-moz-border-radius: 50%
+		-o-border-radius: 50%
+		border-radius: 50%
 .wrapper label
-    cursor: pointer
-    display: inline-block
-    height: 8px
-    margin: 25px 12px 0 16px
-    position: relative
-    width: 8px
-    -webkit-border-radius: 50%
-    -moz-border-radius: 50%
-    -o-border-radius: 50%
-    border-radius: 50%
-    -webkit-transition: background ease-in-out .5s
-    -moz-transition: background ease-in-out .5s
-    -o-transition: background ease-in-out .5s
-    transition: background ease-in-out .5s
+	cursor: pointer
+	display: inline-block
+	height: 8px
+	margin: 25px 12px 0 16px
+	position: relative
+	width: 8px
+	-webkit-border-radius: 50%
+	-moz-border-radius: 50%
+	-o-border-radius: 50%
+	border-radius: 50%
+	-webkit-transition: background ease-in-out .5s
+	-moz-transition: background ease-in-out .5s
+	-o-transition: background ease-in-out .5s
+	transition: background ease-in-out .5s
 
 .wrapper label:active,
 #slide1:checked ~ .controls label:nth-of-type(1),
 #slide2:checked ~ .controls label:nth-of-type(2),
 #slide3:checked ~ .controls label:nth-of-type(3),
 #slide4:checked ~ .controls label:nth-of-type(4)
-    background: #3b91e6
+	background: #3b91e6
 .slides
-    height: inherit
-    opacity: 0
-    position: absolute
-    width: inherit
-    z-index: 0
-    -webkit-transform: scale(1.5)
-    -moz-transform: scale(1.5)
-    -o-transform: scale(1.5)
-    transform: scale(1.5)
-    -webkit-transition: transform ease-in-out .5s, opacity ease-in-out .5s
-    -moz-transition: transform ease-in-out .5s, opacity ease-in-out .5s
-    -o-transition: transform ease-in-out .5s, opacity ease-in-out .5s
-    transition: transform ease-in-out .5s, opacity ease-in-out .5s
+	height: inherit
+	opacity: 0
+	position: absolute
+	width: inherit
+	z-index: 0
+	-webkit-transform: scale(1.5)
+	-moz-transform: scale(1.5)
+	-o-transform: scale(1.5)
+	transform: scale(1.5)
+	-webkit-transition: transform ease-in-out .5s, opacity ease-in-out .5s
+	-moz-transition: transform ease-in-out .5s, opacity ease-in-out .5s
+	-o-transition: transform ease-in-out .5s, opacity ease-in-out .5s
+	transition: transform ease-in-out .5s, opacity ease-in-out .5s
 
 #slide1:checked ~ .slider > .slide1,
 #slide2:checked ~ .slider > .slide2,
 #slide3:checked ~ .slider > .slide3,
 #slide4:checked ~ .slider > .slide4
-    opacity: 1
-    z-index: 1
-    -webkit-transform: scale(1)
-    -moz-transform: scale(1)
-    -o-transform: scale(1)
-    transform: scale(1)
+	opacity: 1
+	z-index: 1
+	-webkit-transform: scale(1)
+	-moz-transform: scale(1)
+	-o-transform: scale(1)
+	transform: scale(1)
 
 .photo
-    margin-left: 100px
-    margin-top: 100px
-    max-width: 780px
-    .steps
-        color: gray
+	margin-left: 100px
+	margin-top: 100px
+	max-width: 780px
+	.steps
+		color: gray
 
 .dark_form_sect
-    margin-bottom: 85px
-    padding-bottom: 140px
-    background-repeat: no-repeat
-    background-size: cover
-    background-position: center center
-    background-image: url(../img/photo_back.png)
-    .forms
-        color: white
-        margin-top: 130px
-        display: block
-        text-align: center
-        padding-top: 97px
-        .question
-            font-size: 46pt
-            font-weight: 800
-            margin-bottom: 20px
-            text-transform: uppercase
+	margin-bottom: 85px
+	padding-bottom: 140px
+	background-repeat: no-repeat
+	background-size: cover
+	background-position: center center
+	background-image: url(../img/photo_back.png)
+	.forms
+		color: white
+		margin-top: 130px
+		display: block
+		text-align: center
+		padding-top: 97px
+		.question
+			font-size: 46pt
+			font-weight: 800
+			margin-bottom: 20px
+			text-transform: uppercase
 
-        .name
-            input
-                background: url(../img/man_icon.png) no-repeat scroll 7px 7px
-                background-position: 350px
-                background-color: #fff
+		.name
+			input
+				background: url(../img/man_icon.png) no-repeat scroll 7px 7px
+				background-position: 350px
+				background-color: #fff
 
-        .phone
+		.phone
 
-            margin: 0 auto
-            padding-top: 10px
-            height: 100px
-            width: 420px
-            font-size: 35pt
-            border: 4px solid #dc107e
-            a
-                text-decoration: none
-                color: white
+			margin: 0 auto
+			padding-top: 10px
+			height: 100px
+			width: 420px
+			font-size: 35pt
+			border: 4px solid #dc107e
+			a
+				text-decoration: none
+				color: white
 
-        .phone_form
-            input
-                background: url(../img/phone_icon.png) no-repeat scroll 7px 7px
-                background-position: 350px
-                background-color: #fff
-        .mail
-            input
-                background: url(../img/mail_icon.png) no-repeat scroll 7px 7px
-                background-position: 350px
-                background-color: #fff
-            a
+		.phone_form
+			input
+				background: url(../img/phone_icon.png) no-repeat scroll 7px 7px
+				background-position: 350px
+				background-color: #fff
+		.mail
+			input
+				background: url(../img/mail_icon.png) no-repeat scroll 7px 7px
+				background-position: 350px
+				background-color: #fff
+			a
 
-                text-decoration: none
-                color: white
-        .request
-            margin-bottom: 20px
-            margin-top: 20px
-            span
-                color: #dc107e
+				text-decoration: none
+				color: white
+		.request
+			margin-bottom: 20px
+			margin-top: 20px
+			span
+				color: #dc107e
 
-        .name, .phone_form, .mail
-            input
-                margin: 0 auto
-                margin-bottom: 20px
-                width: 380px
+		.name, .phone_form, .mail
+			input
+				margin: 0 auto
+				margin-bottom: 20px
+				width: 380px
 
-        .checkbox
-            input[type="checkbox"]:checked,
-            input[type="checkbox"]:not(:checked)
+		.checkbox
+			input[type="checkbox"]:checked,
+			input[type="checkbox"]:not(:checked)
 
-                position: absolute
-                left: -9999px
+				position: absolute
+				left: -9999px
 
-            input[type="checkbox"]:checked + label,
-            input[type="checkbox"]:not(:checked) + label
-                display: inline-block
-                position: relative
-                padding-left: 28px
-                line-height: 20px
-                cursor: pointer
+			input[type="checkbox"]:checked + label,
+			input[type="checkbox"]:not(:checked) + label
+				display: inline-block
+				position: relative
+				padding-left: 28px
+				line-height: 20px
+				cursor: pointer
 
-            input[type="checkbox"]:checked + label:before,
-            input[type="checkbox"]:not(:checked) + label:before
-                content: ""
-                position: absolute
-                left: 0px
-                top: 0px
-                width: 18px
-                height: 18px
-                border: 1px solid black
-                background-color: #ffffff
+			input[type="checkbox"]:checked + label:before,
+			input[type="checkbox"]:not(:checked) + label:before
+				content: ""
+				position: absolute
+				left: 0px
+				top: 0px
+				width: 18px
+				height: 18px
+				border: 1px solid black
+				background-color: #ffffff
 
-            input[type="checkbox"]:checked + label:before,
-            input[type="checkbox"]:not(:checked) + label:before
-                border-radius: 2px
+			input[type="checkbox"]:checked + label:before,
+			input[type="checkbox"]:not(:checked) + label:before
+				border-radius: 2px
 
-            input[type="radio"]:checked + label:before
-                border-radius: 100%
+			input[type="radio"]:checked + label:before
+				border-radius: 100%
 
-            input[type="checkbox"]:checked + label:after,
-            input[type="checkbox"]:not(:checked) + label:after
-                content: ""
-                position: absolute
-                -webkit-transition: all 0.2s ease
-                -moz-transition: all 0.2s ease
-                -o-transition: all 0.2s ease
-                transition: all 0.2s ease
+			input[type="checkbox"]:checked + label:after,
+			input[type="checkbox"]:not(:checked) + label:after
+				content: ""
+				position: absolute
+				-webkit-transition: all 0.2s ease
+				-moz-transition: all 0.2s ease
+				-o-transition: all 0.2s ease
+				transition: all 0.2s ease
 
-            input[type="checkbox"]:checked + label:after
-                left: 5px
-                top: 5px
-                width: 7px
-                height: 5px
-                border-radius: 1px
-                border-left: 2px solid black
-                border-bottom: 2px solid black
-                -webkit-transform: rotate(-45deg)
-                -moz-transform: rotate(-45deg)
-                -o-transform: rotate(-45deg)
-                -ms-transform: rotate(-45deg)
-                transform: rotate(-45deg)
+			input[type="checkbox"]:checked + label:after
+				left: 5px
+				top: 5px
+				width: 7px
+				height: 5px
+				border-radius: 1px
+				border-left: 2px solid black
+				border-bottom: 2px solid black
+				-webkit-transform: rotate(-45deg)
+				-moz-transform: rotate(-45deg)
+				-o-transform: rotate(-45deg)
+				-ms-transform: rotate(-45deg)
+				transform: rotate(-45deg)
 
-            input[type="radio"]:checked + label:after
-                left: 4px
-                top: 4px
-                width: 10px
-                height: 10px
-                border-radius: 100%
-                background-color: black
+			input[type="radio"]:checked + label:after
+				left: 4px
+				top: 4px
+				width: 10px
+				height: 10px
+				border-radius: 100%
+				background-color: black
 
-            input[type="checkbox"]:not(:checked) + label:after
-                opacity: 0
+			input[type="checkbox"]:not(:checked) + label:after
+				opacity: 0
 
-            input[type="checkbox"]:checked + label:after
-                opacity: 1
-        .btn
-            height: 50px
-            width: 235px
-            background-color: #dc107e
-            color: white
-            border: none
-            text-transform: uppercase
+			input[type="checkbox"]:checked + label:after
+				opacity: 1
+		.btn
+			height: 50px
+			width: 235px
+			background-color: #dc107e
+			color: white
+			border: none
+			text-transform: uppercase
 .light_form
-    width: 780px
-    margin: 0 auto
-    margin-bottom: 25px
+	width: 780px
+	margin: 0 auto
+	margin-bottom: 25px
 
-    background-color: #f3f3f3
-    *
-        text-align: center
+	background-color: #f3f3f3
+	*
+		text-align: center
 
-    .form_wrapper
-        display: flex
-        justify-content: center
-        .forms
-            margin-right: 20px
-            .phone_form, .mail
-                margin-top: 20px
-    h2
+	.form_wrapper
+		display: flex
+		justify-content: center
+		.forms
+			margin-right: 20px
+			.phone_form, .mail
+				margin-top: 20px
+	h2
 
-        text-transform: uppercase
-    input
-        height: 40px
-        width: 280px
-        text-align: left
+		text-transform: uppercase
+	input
+		height: 40px
+		width: 280px
+		text-align: left
 
-    textarea
-        margin-top: -80px
-        resize: none
-        width: 280px
-        height: 160px
-        text-align: left
-    span
-        color: #dc107e
-    .btn
+	textarea
+		margin-top: -80px
+		resize: none
+		width: 280px
+		height: 160px
+		text-align: left
+	span
+		color: #dc107e
+	.btn
 
-        height: 50px
-        width: 235px
-        background-color: #dc107e
-        color: white
-        border: none
-        text-transform: uppercase
+		height: 50px
+		width: 235px
+		background-color: #dc107e
+		color: white
+		border: none
+		text-transform: uppercase
 
-        position: relative
-        left: 50%
-        transform: translate(-50%, 0)
-        margin-top: 30px
-        margin-bottom: 150px
-        box-shadow: 4px 4px 6px -1px gray, -4px 4px 6px -1px gray
+		position: relative
+		left: 50%
+		transform: translate(-50%, 0)
+		margin-top: 30px
+		margin-bottom: 150px
+		box-shadow: 4px 4px 6px -1px gray, -4px 4px 6px -1px gray
 
 .drop_list
 
-    padding-top: 40px
-    width: 780px
-    margin: 0 auto
-    height: 375px
-    background-color: #f3f3f3
-    #nav
-        float: center
-        width: 100%
-        list-style: none
-        font-weight: bold
-        margin-bottom: 10px
+	padding-top: 40px
+	width: 780px
+	margin: 0 auto
+	height: 375px
+	background-color: #f3f3f3
+	#nav
+		float: center
+		width: 100%
+		list-style: none
+		font-weight: bold
+		margin-bottom: 10px
 
-    #nav li
-        width: 280px
-        position: relative
-        display: block
+	#nav li
+		width: 280px
+		position: relative
+		display: block
 
-        & a
-            display: block
-            padding: 5px
+		& a
+			display: block
+			padding: 5px
 
-            margin-top: -2px
-            text-decoration: none
-            color: black
+			margin-top: -2px
+			text-decoration: none
+			color: black
 
-            border: 1px solid
+			border: 1px solid
 
-    /*--- ВЫПАДАЮЩИЕ ПУНКТЫ ---*/
-    #nav ul
-        list-style: none
-        position: absolute
-        left: -9999px
-        opacity: 0
-        -webkit-transition: 0.25s linear opacity
+	/*--- ВЫПАДАЮЩИЕ ПУНКТЫ ---*/
+	#nav ul
+		list-style: none
+		position: absolute
+		left: -9999px
+		opacity: 0
+		-webkit-transition: 0.25s linear opacity
 
-        & li
-            padding-top: 1px
-            float: none
+		& li
+			padding-top: 1px
+			float: none
 
-        & a
-            width: 280px
-            margin-left: -32px
-            display: block
+		& a
+			width: 280px
+			margin-left: -32px
+			display: block
 
-    #nav li:hover ul
-        left: 0
-        opacity: 1
+	#nav li:hover ul
+		left: 0
+		opacity: 1
 
-    #nav li:hover ul a
-        text-decoration: none
-        -webkit-transition: -webkit-transform 0.075s linear
+	#nav li:hover ul a
+		text-decoration: none
+		-webkit-transition: -webkit-transform 0.075s linear
 
-    #nav li:hover ul li a:hover
-        -moz-transform: scale(1.05)
-        -webkit-transform: scale(1.05)
+	#nav li:hover ul li a:hover
+		-moz-transform: scale(1.05)
+		-webkit-transform: scale(1.05)
 .drop_list
-    margin-bottom: 50px
+	margin-bottom: 50px
 
 .form_validation
-    width: 380px
-    margin: 0 auto
-    padding-bottom: 100px
-    padding-top: 60px
-    background-color: #f3f3f3
-    .error
-        text-align: center
-        margin-bottom: 20px
-    .phone_form
-        text-align: center
-        margin-bottom: 20px
+	width: 380px
+	margin: 0 auto
+	padding-bottom: 100px
+	padding-top: 60px
+	background-color: #f3f3f3
+	.error
+		text-align: center
+		margin-bottom: 20px
+	.phone_form
+		text-align: center
+		margin-bottom: 20px
 
-    input:invalid
-        border-color: red
+	input:invalid
+		border-color: red
 
-    input:valid
-        border-color: green
-    .mail
-        text-align: center
+	input:valid
+		border-color: green
+	.mail
+		text-align: center
 
 .message
-    margin-top: 80px
-    display: flex
-    justify-content: center
-    margin-bottom: 100px
-    .success, .error
-        padding: 30px
-        width: 480px
-        height: 200px
-    .success
-        background-color: #e6eef8
-        margin-right: 20px
-    .error
-        background-color: #f5e0e9
-
-.tabs
-    .tab
-
-        margin: 0 auto
-        width: 984px
-        padding: 2px
-        display: flex
-        justify-content: center
-        border-radius: 50px
-        border: 2px solid #dd1781
-
-        button
-            border-radius: 50px
-            border: none
-            width: 245px
-            height: 50px
-            background-color: white
-
-        button:hover
-
-        button:focus
-            background-color: #dd1781
-            transition: 1s
-            color: white
-
-.tab_back
-
-    height: 160px
-
-    margin: 0 auto
-    background: rgb(181,68,111)
-    background: linear-gradient(90deg, rgba(181,68,111,1) 50%, rgba(157,68,180,1) 100%)
-    padding-top: 50px
-    margin-top: 60px
-    margin-bottom: 75px
-    .tab_wrapper
-        margin: 0 auto
-
-        width: 984px
-        padding: 2px
-        display: flex
-        justify-content: center
-        border-radius: 50px
-        border: 2px solid white
-        button
-            border-radius: 50px
-            border: none
-            width: 245px
-            height: 50px
-            background-color: rgba(28,28,28,0)
-            color: white
-
-        button:hover
-
-        button:focus
-            background-color: white
-            transition: 1s
-            color: black
+	margin-top: 80px
+	display: flex
+	justify-content: center
+	margin-bottom: 100px
+	.success, .error
+		padding: 30px
+		width: 480px
+		height: 200px
+	.success
+		background-color: #e6eef8
+		margin-right: 20px
+	.error
+		background-color: #f5e0e9
 
 .rate
-    .first_wrapper
-        display: flex
-        justify-content: center
+	.first_wrapper
+		display: flex
+		justify-content: center
 
-        .rate_simple
-            margin-right: 50px
+		.rate_simple
+			margin-right: 50px
 
-            button
-                width: 175px
-                height: 50px
-                border: none
-            button:focus
-                background-color: #dd1781
-                transition: 1s
-                color: white
+			button
+				width: 175px
+				height: 50px
+				border: none
+			button:focus
+				background-color: #dd1781
+				transition: 1s
+				color: white
 
-        .speed_simple
-            align-self: flex-end
-            button
-                width: 80px
-                height: 30px
-                border: none
-                font-size: 14px
-            button:focus
-                background-color: #dd1781
-                transition: 1s
-                color: white
+		.speed_simple
+			align-self: flex-end
+			button
+				width: 80px
+				height: 30px
+				border: none
+				font-size: 14px
+			button:focus
+				background-color: #dd1781
+				transition: 1s
+				color: white
 .rate_background
-    background-size: cover
-    background: rgb(181,68,111)
-    background: linear-gradient(90deg, rgba(181,68,111,1) 50%, rgba(157,68,180,1) 100%)
-    .second_wrapper
-        margin: 0 auto
-        width: 1020px
-        height: 100px
-        margin-top: 50px
-        padding-top: 25px
-        padding-bottom: 25px
+	background-size: cover
+	background: rgb(181,68,111)
+	background: linear-gradient(90deg, rgba(181,68,111,1) 50%, rgba(157,68,180,1) 100%)
+	.second_wrapper
+		margin: 0 auto
+		width: 100%
+		height: 100px
+		margin-top: 50px
+		padding-top: 25px
+		padding-bottom: 25px
 
-        display: flex
-        justify-content: center
+		display: flex
+		justify-content: center
 
-        .rate_back
-            margin-right: 50px
+		.rate_back
+			
+			margin-right: 50px
 
-            button
-                width: 175px
-                height: 50px
-                border: none
-                background-color: #bd74a2
-                color: white
-            button:focus
-                background-color: #f8edf1
-                transition: 1s
-                color: #dd1781
+			button
+				width: 175px
+				height: 50px
+				border: none
+				background-color: #bd74a2
+				color: white
+			button:focus
+				background-color: #f8edf1
+				transition: 1s
+				color: #dd1781
 
-        .speed_back
-            align-self: flex-end
-            button
-                width: 80px
-                height: 30px
-                border: none
-                font-size: 14px
-                background-color: #bd74a2
-                color: white
-            button:focus
-                background-color: #f8edf1
-                transition: 1s
-                color: #dd1781
+		.speed_back
+			align-self: flex-end
+			button
+				width: 80px
+				height: 30px
+				border: none
+				font-size: 14px
+				background-color: #bd74a2
+				color: white
+			button:focus
+				background-color: #f8edf1
+				transition: 1s
+				color: #dd1781
 
 .ctr_sect
-    .ctr
-        margin-top: 50px
+	.ctr
+		margin-top: 50px
 
-        margin-bottom: 50px
-        .ctr_wrapper
-            width: 1020px
-            margin: 0 auto
-            display: flex
-            justify-content: center
-            .ctr_back
-                width: 500px
-                margin-right: 20px
-                background: rgb(181,68,111)
-                background: linear-gradient(90deg, rgba(181,68,111,1) 50%, rgba(157,68,180,1) 100%)
-                padding-top: 25px
-                padding-bottom: 25px
-                .ctr_title
-                    text-align: center
-                    width: 300px
-                    margin: 0 auto
-                    margin-bottom: 20px
-                    .mark
-                        width: 10px
-                        height: 10px
-                        border-radius: 20px
-                        background-color: white
-                        display: inline
+		margin-bottom: 50px
+		.ctr_wrapper
+			width: 1020px
+			margin: 0 auto
+			display: flex
+			justify-content: center
+			.ctr_back
+				width: 500px
+				margin-right: 20px
+				background: rgb(181,68,111)
+				background: linear-gradient(90deg, rgba(181,68,111,1) 50%, rgba(157,68,180,1) 100%)
+				padding-top: 25px
+				padding-bottom: 25px
+				.ctr_title
+					text-align: center
+					width: 300px
+					margin: 0 auto
+					margin-bottom: 20px
+					.mark
+						width: 10px
+						height: 10px
+						border-radius: 20px
+						background-color: white
+						display: inline
 
-                .ctr_desc
+				.ctr_desc
 
-                    font-size: 12px
-                    margin: 0 auto
-                    background-color: white
-                    width: 300px
-                    padding: 20px
+					font-size: 12px
+					margin: 0 auto
+					background-color: white
+					width: 300px
+					padding: 20px
 
-            .ctr_simple
-                width: 500px
-                margin-right: 20px
+			.ctr_simple
+				width: 500px
+				margin-right: 20px
 
-                padding-top: 25px
-                padding-bottom: 25px
+				padding-top: 25px
+				padding-bottom: 25px
 
-                .ctr_title
-                    text-align: center
-                    width: 300px
-                    margin: 0 auto
-                    margin-bottom: 20px
+				.ctr_title
+					text-align: center
+					width: 300px
+					margin: 0 auto
+					margin-bottom: 20px
 
-                    .mark
-                        width: 10px
-                        height: 10px
-                        border-radius: 20px
-                        background-color: white
-                        border: 2px solid #dd1781
-                        display: inline
-                        color: #dd1781
-                .ctr_desc
-                    margin-top: 20px
-                    font-size: 12px
-                    margin: 0 auto
-                    background-color: white
-                    width: 300px
-                    padding: 20px
-                    box-shadow: 0 0 10px gray
-                    box-shadow: 0 0 10px gray
+					.mark
+						width: 10px
+						height: 10px
+						border-radius: 20px
+						background-color: white
+						border: 2px solid #dd1781
+						display: inline
+						color: #dd1781
+				.ctr_desc
+					margin-top: 20px
+					font-size: 12px
+					margin: 0 auto
+					background-color: white
+					width: 300px
+					padding: 20px
+					box-shadow: 0 0 10px gray
+					box-shadow: 0 0 10px gray
 
 .light_table_sect
-    overflow: auto
-    .table_wrapper
-        width: 980px
-        margin: 0 auto
-        .table_title
+	overflow: auto
+	.table_wrapper
+		width: 980px
+		margin: 0 auto
+		.table_title
 
-        .table
+		.table
 
-            border: 3px solid #dd1781
-            width: 100%
-            margin-bottom: 20px
+			border: 3px solid #dd1781
+			width: 100%
+			margin-bottom: 20px
 
-        .table th
-            height: 75px
-            font-weight: 400
-            padding: 15px
-            background-color: #dd1781
+		.table th
+			height: 75px
+			font-weight: 400
+			padding: 15px
+			background-color: #dd1781
 
-        .table td
-            height: 75px
-            padding: 5px 15px
-            border-right: 3px solid #eee
-            text-align: left
+		.table td
+			height: 75px
+			padding: 5px 15px
+			border-right: 3px solid #eee
+			text-align: left
 
-            &:last-child
-                border: none
+			&:last-child
+				border: none
 
-            &::after
+		.table tbody tr:nth-child(odd)
+			background: #fff
 
-                content: ""
-                position: absolute
-                top: 30px
-                right: -10px
-                bottom: 30px
-                border-left: 1px solid #000
+		.table tbody tr:nth-child(even)
+			background: #F7F7F7
 
-        .table tbody tr:nth-child(odd)
-            background: #fff
+		.table .th1
+			width: 530px
 
-        .table tbody tr:nth-child(even)
-            background: #F7F7F7
-
-        .table .th1
-            width: 530px
-
-        .table .th2
-            width: 200px
+		.table .th2
+			width: 200px
 
 .dark_table_sect
-    overflow: auto
-    padding-top: 60px
-    margin-bottom: 85px
-    padding-bottom: 140px
-    background-repeat: no-repeat
-    background-position: center center
-    background-size: cover
-    background-image: url(../img/photo_back.png)
-    .table_wrapper
-        width: 980px
-        margin: 0 auto
-        .table_title
-            color: white
-        .table
+	overflow: auto
+	padding-top: 60px
+	margin-bottom: 85px
+	padding-bottom: 140px
+	background-repeat: no-repeat
+	background-position: center center
+	background-size: cover
+	background-image: url(../img/photo_back.png)
+	.table_wrapper
+		width: 980px
+		margin: 0 auto
+		.table_title
+			color: white
+		.table
 
-            border: 3px solid white
-            width: 100%
-            margin-bottom: 20px
+			border: 3px solid white
+			width: 100%
+			margin-bottom: 20px
 
-        .table th
-            font-weight: 400
-            padding: 15px
-            background-color: white
-            color: #dd1781
-            height: 75px
-            background: rgba( 255,255,255,0.9)
+		.table th
+			font-weight: 400
+			padding: 15px
+			background-color: white
+			color: #dd1781
+			height: 75px
+			background: rgba( 255,255,255,0.9)
 
-        .table td
-            height: 75px
-            padding: 5px 15px
-            border-right: 3px solid #eee
-            text-align: left
-            color: white
+		.table td
+			height: 75px
+			padding: 5px 15px
+			border-right: 3px solid #eee
+			text-align: left
+			color: white
 
-            &:last-child
-                border: none
+			&:last-child
+				border: none
 
-            &::after
+		.table tbody tr:nth-child(odd)
+			background: #fff
+			background: rgba( 255,255,255,0.1)
 
-                content: ""
-                position: absolute
-                top: 30px
-                right: -10px
-                bottom: 30px
-                border-left: 1px solid #000
+		.table tbody tr:nth-child(even)
+			background: #F7F7F7
+			background: rgba( 255,255,255,0.2)
+		.table .th1
 
-        .table tbody tr:nth-child(odd)
-            background: #fff
-            background: rgba( 255,255,255,0.1)
+			width: 530px
 
-        .table tbody tr:nth-child(even)
-            background: #F7F7F7
-            background: rgba( 255,255,255,0.2)
-        .table .th1
+		.table .th2
+			width: 200px
 
-            width: 530px
-
-        .table .th2
-            width: 200px
-
-        .table td
-            text-decoration: none
-            color: white
+		.table td
+			text-decoration: none
+			color: white
 
 .counter
-    .wrapper_pager
-        margin: 0 auto
-        text-align: center
-        .pager
-            list-style: none
-            padding: 0
-            margin-top: 10px
+	.wrapper_pager
+		margin: 0 auto
+		text-align: center
+		.pager
+			list-style: none
+			padding: 0
+			margin-top: 10px
 
-            display: inline-block
-            text-align: center
+			display: inline-block
+			text-align: center
 
-            &-item
-                margin: 0 auto
-                display: inline
+			&-item
+				margin: 0 auto
+				display: inline
 
-                a
-                    margin-right: 40px
-                    float: left
-                    display: block
+				a
+					margin-right: 40px
+					float: left
+					display: block
 
-                    font-size: 20px
-                    text-decoration: none
-                    color: #9dc8f2
-                    margin-left: -1px
-                    border: 1px solid transparent
-                    line-height: 1.5
-                    border-bottom: 3px dotted #9dc8f2
+					font-size: 20px
+					text-decoration: none
+					color: #9dc8f2
+					margin-left: -1px
+					border: 1px solid transparent
+					line-height: 1.5
+					border-bottom: 3px dotted #9dc8f2
 
-                .a:hover
+				.a:hover
 
-                    font-size: 30px
-                    color: #3b91e6
+					font-size: 30px
+					color: #3b91e6
 
-                .next, .prev
-                    border: none
+				.next, .prev
+					border: none
 
-                    width: 30px
+					width: 30px
 
-                    background-color: #cee3f9
-                    border-radius: 50px
-                    color: white
+					background-color: #cee3f9
+					border-radius: 50px
+					color: white
 
-                    &:hover
-                        background-color: #3b91e6
+					&:hover
+						background-color: #3b91e6
 
 .insta
-    position: relative
-    margin-top: 100px
+	
+	position: relative
+	margin-top: 100px
 
-    width: 1200px
-    margin: 0 auto
+	width: 1200px
+	width: 100%
+	margin: 0 auto
 
-    .img_wrapper
-        margin-top: 50px
-        text-align: center
-        img
+	.img_wrapper
+		margin-top: 50px
+		text-align: center
+		img
 
-    .iphone
-        position: absolute
-        top: -50px
-        right: 50px
+	.iphone
+		position: absolute
+		top: -50px
+		right: 50px
 
 footer
-    background-color: #343037
-    color: white
-    height: 125px
+	background-color: #343037
+	color: white
+	height: 125px
+	width: 100%
 
-    .footer
+	.footer
 
-        padding-top: 40px
-        display: flex
-        justify-content: space-between
-        margin-top: 100px
-        .cw
+		padding-top: 40px
+		display: flex
+		justify-content: space-between
+		margin-top: 100px
+		.cw
 
-        .contacts
-            display: flex
-            .icons
-                margin-left: 50px
+		.contacts
+			display: flex
+			.icons
+				margin-left: 50px
 
 .modal
-    height: 500px
-    width: 780px
-    margin: 0 auto
-    background-color: #f3f3f3
-    text-align: center
-    margin-top: 100px
-    padding-top: 50px
-    .header
-        text-transform: uppercase
-        font-size: 34px
-    .modal_wrapper
-        margin: 0 auto
+	display: none
+	height: 500px
+	width: 780px
+	margin: 0 auto
+	background-color: #f3f3f3
+	text-align: center
+	margin-top: 100px
+	padding-top: 50px
+	.header
+		text-transform: uppercase
+		font-size: 34px
+	.modal_wrapper
+		margin: 0 auto
 
-        width: 280px
+		width: 280px
 
-        input
-            width: 280px
-        button
-            height: 50px
-            width: 235px
-            background-color: #dc107e
-            color: white
-            border: none
-            text-transform: uppercase
-            box-shadow: 4px 4px 6px -1px gray, -4px 4px 6px -1px gray
+		input
+			width: 280px
+		button
+			height: 50px
+			width: 235px
+			background-color: #dc107e
+			color: white
+			border: none
+			text-transform: uppercase
+			box-shadow: 4px 4px 6px -1px gray, -4px 4px 6px -1px gray
 
-        span
-            color: #dc107e
+		span
+			color: #dc107e
 
 .menu_wrapper
 
-.aside
-    position: fixed
-    width: 215px
-    top: 0
-    left: 0
-    z-index: 50
+	.aside:before
+		content: ""
+		position: absolute
+		top: 0
+		left: 0
+		width: 215px
+		height: 100vh
+		background-color: #343037
+		z-index: 2
+	.aside
+		position: fixed
+		width: 215px
+		top: 0
+		left: 0
+		z-index: 50
+		.aside__body
+			position: relative
+			z-index: 2
 
-.aside:before
-    content: ""
-    position: absolute
-    top: 0
-    left: 0
-    width: 215px
-    height: 100vh
-    background-color: #343037
-    z-index: 2
-.aside__body
-    position: relative
-    z-index: 2
+			.aside__burger
+				display: none
+			.aside__menu
+				.aside__list
+					margin-top: 60px
+					width: 215px
+					padding: 0
 
-.aside__burger
-    display: none
-.aside__menu
-.aside__list
-    margin-top: 60px
-    width: 215px
-    padding: 0
+					li
 
-    li
-        padding-top: 15px
-        padding-left: 20px
-        width: 100%
-        list-style: none
-        height: 55px
-        a
-            padding-left: 15px
-        &:hover
-            background-color: #dc107e
-            a
-                color: white
-                
-    .elem_first
-        margin-bottom: 70px
-        height: 70px
-        
-        a
-            font-size: 20px
-            
-        img
-            width: 40px
-            height: 40px
-    .elem_last
-        margin-top: 55px
-        
+						width: 100%
+						list-style: none
+						height: 55px
+						.aside__link
+							padding-left: 20px
+							text-align: left
+							color: white
+							text-transform: uppercase
+							font-size: 12px
+							text-decoration: none
+							height: 100%
+							width: 100%
+							border: none
+							background: rgba(0, 0, 0, 0)
 
-.aside__link
-    color: white
-    text-transform: uppercase
-    font-size: 12px
-    text-decoration: none
+							img
+								margin-right: 15px
 
+					li:hover
+						background-color: #dc107e
+						transition: all 0.5s ease 0s
+						a
+							color: white
+
+					.elem_first
+						margin-bottom: 70px
+						height: 70px
+
+						a
+							font-size: 20px
+
+						img
+							width: 40px
+							height: 40px
+					.elem_last
+						margin-top: 55px
+
+.btns_wrapper
+	margin-top: 50px
+	.container
+
+		.btns:before
+			content: ""
+			position: absolute
+
+			background-color: #343037
+			z-index: 2
+		.btns
+
+			top: 0
+			left: 0
+			z-index: 50
+			.btns__body
+				position: relative
+				z-index: 2
+
+				.btns__burger
+					display: none
+				.btns__menu
+					.btns__list
+						margin: 0 auto
+						width: 988px
+						padding: 2px
+						display: flex
+						justify-content: center
+						border-radius: 50px
+						border: 2px solid #dd1781
+
+						li
+							border-radius: 50px
+							list-style: none
+							height: 52px
+
+							.btns__link
+
+								border: none
+								width: 245px
+								height: 50px
+								background: rgba(0, 0, 0, 0)
+								font-weight: bold
+
+						li:hover
+							background-color: #dc107e
+							transition: all 0.5s ease 0s
+
+.btns_back_wrapper
+	padding-top: 45px
+	height: 160px
+	width: 1150px
+	max-width: 100%
+	margin: 0 auto
+	margin-top: 50px
+	background: rgb(181,68,111)
+	background: linear-gradient(90deg, rgba(181,68,111,1) 50%, rgba(157,68,180,1) 100%)
+	.container
+
+		.btns
+
+			top: 0
+			left: 0
+			z-index: 50
+			.btns__body
+
+				.btns__burger
+				.btns__menu
+					.btns__list
+						margin: 0 auto
+						width: 988px
+						padding: 2px
+						display: flex
+						justify-content: center
+						border-radius: 50px
+						border: 2px solid white
+
+						li
+							border-radius: 50px
+							list-style: none
+							height: 52px
+
+							.btns__link
+								color: white
+								border: none
+								width: 245px
+								height: 50px
+								background: rgba(0, 0, 0, 0)
+								font-weight: bold
+
+						li:hover
+							background-color: white
+							transition: all 0.5s ease 0s
+							.btns__link
+								color: black
+
+.lock
+	overflow: hidden
+
+
+	
 @import media.sass
-
-    
